@@ -8,3 +8,5 @@ function isEven(num){
     }
 }
 
+const arrEven = nums.filter(isEven);
+console.log(arrEven)
