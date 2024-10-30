@@ -20,3 +20,11 @@ nums.forEach(el=>{
 })
 console.log(arrEvenv2)
 
+//third solution
+let arrEvenv3 = [];
+for(let i=0; i<nums.length ; i++){
+    if(isEven(nums[i])){
+        arrEvenv3.push(nums[i])
+    }
+}
+console.log(arrEvenv3)
