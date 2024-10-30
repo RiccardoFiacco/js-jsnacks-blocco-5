@@ -10,3 +10,10 @@ const posts = [
 
 const nameArray = posts.map(({author})=> author)
 console.log(nameArray)
+
+let arrV2 = [];
+
+for(let i = 0; i< posts.length ; i++){
+  arrV2[i] = posts[i].author;  
+}
+console.log(arrV2)
