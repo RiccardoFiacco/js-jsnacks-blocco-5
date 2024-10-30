@@ -10,3 +10,13 @@ function isEven(num){
 
 const arrEven = nums.filter(isEven);
 console.log(arrEven)
+
+//second solution
+let arrEvenv2 = [];
+nums.forEach(el=>{
+    if(isEven(el)){
+        arrEvenv2.push(el)
+    }
+})
+console.log(arrEvenv2)
+
